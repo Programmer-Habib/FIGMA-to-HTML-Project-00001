@@ -155,7 +155,7 @@
         font-size: 1.2rem;
     }
     .logo-hero {
-        height: 4vh;
+        height: 8vh;
     }
     .nav{
         display: none;
@@ -213,6 +213,9 @@
     }
     .total-project {
         margin-top: 12rem;
+    }
+    .project-shap {
+        left: 0rem;
     }
     .brand-hero {
         padding: 2rem;
