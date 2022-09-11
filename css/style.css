@@ -88,6 +88,13 @@ MAX WIDTH 1600
     .rul img{
         width: 75rem;
     }
+    .total-project {
+        justify-content: flex-start;
+        margin-left: 3rem;
+    }
+    .card-hero {
+        padding: 0 2rem;
+    }
 }
 /* =========================
 NAVIGATION
