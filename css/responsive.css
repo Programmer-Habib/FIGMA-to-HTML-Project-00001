@@ -1,0 +1,294 @@
+/* iPad responsiv */
+@media screen and (min-width:767px) and (max-width:960px) {
+    .banner-img img {
+        width: 45rem;
+    }
+    .about-img img {
+        width: 38rem;
+    }
+}
+
+@media screen and (min-width:599px) and (max-width:768px) {
+    h1, .web-heading{
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+    h3{
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+    p{
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+    a{
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+    .glob-btn{
+        width: 18rem;
+        padding: 1rem 2.5rem;
+        transition: .5s;
+    }
+    .logo-hero {
+        height: 4vh;
+    }
+    .nav{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .banner-img img {
+        border-radius: .5rem .5rem .5rem 25rem;
+        margin-top: 0;
+    }
+    .header-section{
+        padding-top: 5rem;
+        height: 4vh;
+    }
+    .mobile-menu {
+        top: 1rem;
+    }
+    .sidenav {
+        padding-top: 1rem;
+    }
+    .stikey{
+        background: var(--whiteColor);
+        box-shadow: -1px 1px 100px rgba(0, 0, 0, 0.1), 1px -1px 100px rgba(0, 0, 0, 0.1);
+    }
+    .banner-img img {
+        width: 29rem;
+        border-radius: .5rem .5rem .5rem 12rem;
+    }
+    .banner-img-shap1 {
+        width: 8rem;
+        height: 8rem;
+    }
+    .banner-img-shap1 {
+        width: 8rem;
+        height: 8rem;
+        bottom: -3rem;
+        right: 5rem;
+    }
+    .banner-img-shap2 {
+        left: -5rem;
+    }
+    .about-img img {
+        width: 29rem;
+    }
+    .about-heading {
+        align-items: flex-start;
+    }
+    .about-hero {
+        margin-top: 5rem;
+    }
+    .ab_txt_num{
+        margin-bottom: 5rem;
+    }
+    .ab_txt_number span {
+        top: -1rem;
+        right: -1rem;
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+    .ab_txt_number-shap {
+        width: 5.6rem;
+        height: 5.6rem;
+        border-radius: .5rem 2.5rem .5rem 2.5rem;
+    }
+    .card{
+        padding: 4rem 0;
+    }
+    .card a{
+        font-size: 1.4rem;
+    }
+    .form {
+        width: 50%;
+    }
+    .contact-img{
+        width: 50%;
+    }
+    .contact-img img {
+        width: 29rem;
+    }
+    .form button,input,textarea{
+        font-size: 1.4rem;
+    }
+    .form input::placeholder{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:600px) {
+    h1, .web-heading{
+        font-size: 3.2rem;
+        line-height: 3.6rem;
+    }
+    h2{
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+    p{
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    a{
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    .span_1_of_2{
+        width: 100%;
+    }
+    .glob-btn{
+        width: 16rem;
+        padding: 1rem 2rem;
+        transition: .5s;
+        font-size: 1.2rem;
+    }
+    .logo-hero {
+        height: 4vh;
+    }
+    .nav{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .banner-text {
+        padding: 1rem;
+        width: 30rem;
+        margin: 0 auto;
+    }
+    .header-section{
+        padding-top: 5rem;
+        height: 4vh;
+    }
+    .mobile-menu {
+        top: 1rem;
+    }
+    .sidenav {
+        padding-top: 1rem;
+    }
+    .stikey{
+        background: var(--whiteColor);
+        box-shadow: -1px 1px 100px rgba(0, 0, 0, 0.1), 1px -1px 100px rgba(0, 0, 0, 0.1);
+    }
+    .banner-hero {
+        position: relative;
+        display: block;
+    }
+    .banner-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -9999;
+    }
+    .banner-img img{
+        width: 30rem;
+        border-radius: .5rem .5rem .5rem 12rem;
+        filter: brightness(75%);
+    }
+    .notActive {
+        background: transparent;
+        border: 1px solid #fff;
+        color: #ffffff;
+    }
+    .notActive:hover {
+        border: 1px solid #40A2D5 !important;
+    }
+    .banner-text .web-heading span {
+        color: #fff;
+    }
+    .banner-text-p {
+        color: #fff;
+    }
+    .total-project {
+        margin-top: 12rem;
+    }
+    .brand-hero {
+        padding: 2rem;
+        grid-template-columns: 1fr 1fr;
+        border-radius: .5rem;
+    }
+    .about-heading p {
+        margin-top: 2rem;
+    }
+    .about-heading {
+        display: block;
+    }
+    .about-img {
+        display: none;
+    }
+    .about-hero {
+        margin-top: 5rem;
+    }
+    .ab_txt_num {
+        margin-bottom: 3rem;
+    }
+    .ab_txt_number span {
+        top: -1rem;
+        right: -1rem;
+        font-size: 3.2rem;
+        font-weight: 700;
+    }
+    .ab_txt_number-shap {
+        width: 5.6rem;
+        height: 5.6rem;
+        border-radius: .5rem 2.5rem .5rem 2.5rem;
+    }
+    .card-hero {
+        display: block;
+    }
+    .card {
+        width: 90%;
+        margin-bottom: 3rem;
+        margin: 3rem auto;
+    }
+    .card-btn {
+        display: none;
+    }
+    .contact-hero {
+        margin-top: 5rem;
+        display: block;
+    }
+    .form {
+        width: 100%;
+    }
+    .contact-img {
+        display: none;
+    }
+    .blog-card figure img {
+        width: 30rem;
+    }
+    .blog-card figure figcaption {
+        width: 30rem;
+    }
+    .span_1_of_4 {
+        width: 100%;
+    }
+    .footer-hero {
+        display: block;
+    }
+    .footer-logo, .footer-resorce{
+        margin-bottom: 4rem;
+    }
+    .footer-logo p {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .footer-resorce h3 {
+        margin-bottom: 2rem;
+    }
+    .footer-email h3 {
+        margin-bottom: 2rem;
+    }
+}
