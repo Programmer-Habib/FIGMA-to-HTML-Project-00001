@@ -22,6 +22,7 @@ body{
     --backgroundColor: #ffffff
 }
 .row{
+    width: min(96%, 110rem);
     margin: 0 auto;
     padding: 5rem 0;
     overflow: hidden;
@@ -78,6 +79,9 @@ a{
 MAX WIDTH 1600
 ========================= */
 @media screen and (min-width: 1600px){
+    .row{
+        width: min(96%, 160rem);
+    }
     .banner-img img {
         width: 75rem;
     }
